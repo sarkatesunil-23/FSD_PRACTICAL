@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Details</title>
+</head>
+<body>
+<h2>Employee Details</h2>
+
+<form method="POST">
+Employee Name:
+<input type="text" name="name" value="{{ name }}">
+<br><br>
+
+Department:
+<input type="text" name="department" value="{{ department }}">
+<br><br>
+
+Salary:
+<input type="number" name="salary" value="{{ salary }}">
+<br><br>
+
+<input type="submit" value="Submit">
+</form>
+<h3>Employee Information</h3>
+<p>Name: {{ name}}</p>
+<p>Department: {{ department }}</p>
+<p>Salary: {{salary }}</p>
+</body>
+</html>

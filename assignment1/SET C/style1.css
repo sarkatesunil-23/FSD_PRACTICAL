@@ -1,0 +1,29 @@
+body{
+    font-family:Arial;
+    margin:0;
+    background:#eef5ff;
+    color:#333;}
+h1{
+    background:#174a7e;
+    color:white;
+    text-align:center;
+    padding:20px;}
+h2{
+    color:#174a7e;
+    margin:20px;}
+img{
+    display:block;
+    width:300px;
+    height:200px;
+    margin:20px auto;
+    border-radius:10px;
+    box-shadow:0 3px 10px #888;}
+p,ul,ol{
+    background:white;
+    padding:15px 30px;
+    margin:15px 30px;
+    border-radius:8px;}
+a{
+    color:#174a7e;
+    font-weight:bold;
+    text-decoration:none;}
